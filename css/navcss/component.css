@@ -1463,14 +1463,14 @@
 	display: block;
 	min-width: 105px;
 	text-align: center;
-	color: #b5b5b5;
+	color: black;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
 }
 
 .menu--valentine .menu__link:hover,
 .menu--valentine .menu__link:focus {
-	color: #929292;
+	color: black;
 }
 
 .menu--valentine .menu__item--current .menu__link {
