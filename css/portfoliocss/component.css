@@ -1,5 +1,4 @@
-/*
-.grid {
+.portfolio {
 	padding: 20px 20px 100px 20px;
 	max-width: 1300px;
 	margin: 0 auto;
@@ -7,7 +6,7 @@
 	text-align: center;
 }
 
-.grid li {
+.portfolio li {
 	display: inline-block;
 	width: 440px;
 	margin: 0;
@@ -16,18 +15,18 @@
 	position: relative;
 }
 
-.grid figure {
+.portfolio figure {
 	margin: 0;
 	position: relative;
 }
 
-.grid figure img {
+.portfolio figure img {
 	max-width: 100%;
 	display: block;
 	position: relative;
 }
 
-.grid figcaption {
+.portfolio figcaption {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -36,17 +35,17 @@
 	color: #ed4e6e;
 }
 
-.grid figcaption h3 {
+.portfolio figcaption h3 {
 	margin: 0;
 	padding: 0;
 	color: #fff;
 }
 
-.grid figcaption span:before {
+.portfolio figcaption span:before {
 	content: 'by ';
 }
 
-.grid figcaption a {
+.portfolio figcaption a {
 	text-align: center;
 	padding: 5px 10px;
 	border-radius: 2px;
@@ -54,7 +53,6 @@
 	background: #ed4e6e;
 	color: #fff;
 }
-*/
 
 /* Individual Caption Styles */
 
