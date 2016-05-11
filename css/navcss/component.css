@@ -10,7 +10,7 @@
 	display: flex;
 	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	list-style: none;
 }
@@ -24,7 +24,7 @@
 	font-size: 1.05em;
 	font-weight: bold;
 	display: block;
-/*	padding: 1em;*/
+	padding: 1em;
 	cursor: pointer;
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -1454,7 +1454,7 @@
 
 /* Valentine */
 .menu--valentine .menu__item {
-	position: sticky;
+	position: relative;
 	margin: 0 1em;
 }
 
@@ -1470,11 +1470,11 @@
 
 .menu--valentine .menu__link:hover,
 .menu--valentine .menu__link:focus {
-	color: black;
+	color: red;
 }
 
 .menu--valentine .menu__item--current .menu__link {
-	color: #d94f5c;
+	color: #red;
 }
 
 .menu--valentine .menu__item::before,
@@ -1519,7 +1519,7 @@
 .menu--valentine .menu__link::after {
 	left: 0;
 	width: 100%;
-	height: 0.14em;
+	height: 2px;
 	-webkit-transform: scale3d(0, 1, 1);
 	transform: scale3d(0, 1, 1);
 }
