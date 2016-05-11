@@ -15,7 +15,7 @@
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 body, html { font-size: 100%; padding: 0; margin: 0;}
 
-/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+ Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ 
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
 
@@ -35,7 +35,7 @@ a:active {
 	color: #333;
 }
 
-/* Header Style */
+ Header Style 
 .container > header {
 	margin: 0 auto;
 	padding: 2em;
@@ -50,7 +50,8 @@ a:active {
 	font-weight: 300;
 }
 
-/* To Navigation Style */
+/*
+ To Navigation Style 
 .codrops-top {
 	background: #fff;
 	background: rgba(255, 255, 255, 0.6);
@@ -112,8 +113,10 @@ a:active {
 .codrops-icon-about:before {
 	content: "\e003";
 }
+*/
 
-/* Demo Buttons Style */
+/*
+ Demo Buttons Style 
 .codrops-demos {
 	padding-top: 1em;
 	font-size: 0.9em;
@@ -141,4 +144,4 @@ a:active {
 		display: none;
 	}
 
-}
+}*/
