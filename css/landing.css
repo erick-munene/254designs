@@ -7,12 +7,10 @@ display: inline-block;
 
 .content {
     color: white;
-    margin-top: 2em auto;
+   
     
 }
-.content{
-    
-}
+
 
 #landing,
 #landing *,
@@ -27,7 +25,7 @@ display: inline-block;
   font-family: Montserrat, Arial, Helvetica, Tahoma, Verdana, sans-serif;
 }
 #landing {
-  width: 1500px;
+/*  width: 1500px;*/
     height: auto;
   font-size: 16px;
   padding-top: 4.0625em;
@@ -96,6 +94,7 @@ display: inline-block;
   display: inline-block;
   word-spacing: normal;
 }
+/*
 #landing > .header > .logo {
   display: inline-block;
   position: absolute;
@@ -106,13 +105,15 @@ display: inline-block;
   white-space: nowrap;
   color: transparent;
   overflow: hidden;
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAAiCAMAAADbEOPQAAAAWlBMVEUAAAABr/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4Br/4y9ToAAAAAHXRSTlMAQL9/7xAfn8/fYI8vcK9QJVnIpzb3tGlJCdeGenCNtI0AAAN9SURBVFjD7ZjpUuMwDIAd33au0hZ6LHr/19xIPlQ3lJYZZofOoj/YUiV/VmQ5QWy28LlsN+JHiod74sWPFLgv4kfKL/gd+QX/EFyOe3Myw+HtucAnbnx29xC46YYvLtd13w7+Ghv9rB8A70B+ebnvBn/FVJzidNbn3Qsa9vo5wBH2GPLkvMfZU4DvluELcN0cl7l7BvDlXA6vwKKtEDYrPmYeWnB769S1NoC1lhWmPfmmtQ9Zby/A35ZR6YH8CHa3wIcJ96ZMBVdYZJ5INNj8qxHclY3BTa9RG8uTU2L2ABBKh8jTMXtJcqBo6CdjAT8s+6XBn5dyJk2pnTV41BB6JcHPCdx4CEo5gIiREZckwNDaGHygCJMGbzJ4TCGLswPdq4XVZXDjE0i/REO/PoMPCw0NOmG39bRuVuBl1ZGWCzqBT+CyvsMEaFMOQGtjcJsjWA8y/dTnkBpUeljepIyoBD6BsugAgTKljKjp/ZPB8wg9TmvwxDnWHchCyKiOkkt/WxuDO+JBggCRjDUkYKUZTZuvA9AQc5S+UFS2voILiaOeja2YnFL0YdJcHIbSJ2pyWhuBNxFi3nqgGTmMqHV1OqNXmVvQ3TX4ewKvW3jHBUjWPbAdSohdEk/+Hgaq9XFtI3COUBWcyIhDBX32Ss8GYKgbgaBsAz5n8I2vNb5/DDwASydKvoI2rY3BI6hrcNWEdMCi2iYafepRDH7SVCBR5ytoWXZ8NONzV4RKAAtzJvrW9kjG55RxVb0wvc3no40SIDI4nkkWWnZ7q8bFVY3P7S/UEncCK9jWclqu8flGjfeNF2+0eIULcBOubs79jStflhZguaskMVkP3pJubQNIEVSJVboKh+Suwl5yhXDZODaBufec8BV4l2+TwQeQKYxLBj2WtE2U6bUN4PImMA58ihhSSOtTrhV4k+bOXILP0paOdclmy6F4s+R8AxzvKq/U1N6cqNBD7cb07Ne2HC1qjNAHvjkdKhzAxDfnMs/9GyQ3Fbn4aZgZfE/oo3vbvdMSh08+JLrU6eu7ilF0pCd7VU1rW83RBOl1p76rRHzeoZQQTvkV56IdkF+YBYPL5jyc+s8/3ez1Nxh1DZb7NtPxd19qhwMqWAbqKGvJfgwO5xfB+/1HH8sM/iVpwQG0Oxy742GnAZ4LvMov+MPy/4D7Cv5k/2bebAv4c/1j/y/QxJrPygnbMwAAAABJRU5ErkJggg==") no-repeat center left;
+  
   background-size: contain;
 }
+*/
 #landing > .header > .button {
   font-size: .75em;
   border-width: .18em;
 }
+/*
 #landing > .header > .login {
   font-size: .875em;
   color: #03b4fe;
@@ -320,6 +321,7 @@ display: inline-block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+*/
 #landing .slider {
   position: relative;
   overflow: hidden;
