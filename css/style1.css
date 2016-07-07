@@ -1,6 +1,6 @@
 .cb-slideshow,
 .cb-slideshow:after { 
-/*    position: fixed;*/
+    position: fixed;
     width: 100%;
     height: 100%;
     top: 0px;
@@ -9,7 +9,12 @@
 }
 .cb-slideshow:after { 
     content: '';
-    background: transparent url(../img/pattern.png) repeat top left; 
+    background: transparent url(../images/pattern.png) repeat top left; 
+}
+
+
+.cb-slideshow li{
+    text-decoration: none;
 }
 .cb-slideshow li span { 
     width: 100%;
@@ -18,8 +23,8 @@
     top: 0px;
     left: 0px;
     color: transparent;
-    background-size: cover;
-    background-position: 50% 50%;
+    background-size: contain;
+    background-position: 100%;
     background-repeat: none;
     opacity: 0;
     z-index: 0;
@@ -129,7 +134,6 @@
     -ms-animation-delay: 30s;
     animation-delay: 30s; 
 }
-
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation { 
     0% { opacity: 0;
