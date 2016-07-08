@@ -23,7 +23,7 @@
 }
 
 #Valentine nav ul{
-    z-index: 1000;
+    z-index: 10;
     margin: 0 auto;
     text-align: center;
     font-size: 1.2em;
@@ -279,3 +279,19 @@ height: 500px;
 
 
 /*-----------------portfolio slider end-------------------*/
+
+
+
+/*-----------------members section-------------------*/
+
+
+.members{
+
+    background-color: rgba(0,0,0,8);
+    z-index: 10;
+background-size:cover;
+position: relative;
+
+
+}
+/*-----------------members section end-------------------*/
