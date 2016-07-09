@@ -36,9 +36,7 @@
 /*=================navigation end=================*/
 
 
-/*------------
-
-----portfolio slider-------------------*/
+/*---------------- slider-------------------*/
 
 .slider-image{
 
@@ -294,4 +292,12 @@ position: relative;
 
 
 }
-/*-----------------members section end-------------------*/
+/*-----------------portfolio section-------------------*/
+.portfolio li{
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+
+/*---------------- slider-------------------*/
