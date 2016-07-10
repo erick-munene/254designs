@@ -3,12 +3,16 @@
 
 /*
 /* Valentine */
-
+.section--menu h2{
+    color: ghostwhite;
+    position: relative;
+}
 
 .menu {
     line-height: 1;
     margin: 0 auto 3em;
 }
+
 
 .menu__list {
     position: relative;
@@ -147,10 +151,13 @@
 }
 
 #Valentine h2{
-    
-    color:black;
+    position: relative;
+    color:crimson;
+    font-weight: 800;
     font-size: 3em;
     text-align: center;
+    z-index: 1000;
+
 }
 
 #Valentine nav ul{
@@ -588,4 +595,12 @@ position: relative;
 .input--filled .input__label--haruki::after {
     -webkit-transform: translate3d(0, 0.5em, 0);
     transform: translate3d(0, 0.5em, 0);
+}
+
+
+
+.grid figure{
+    width: 100%;
+    height: 100%;
+
 }
