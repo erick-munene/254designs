@@ -7319,7 +7319,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
     invertVertical: false,
     /**
-     * Milliseconds before the `changed.zf-slider` event is triggered after value change. 
+     * Milliseconds before the `changed.zf-slider` event is triggered after value change.
      * @option
      * @example 500
      */
