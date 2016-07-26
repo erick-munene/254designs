@@ -2,7 +2,8 @@
     max-width: 100%;
     padding: 0em;
     margin: 0em;
-	
+   
+  
 }
 body {
     font-family: 'Poiret One', cursive;
@@ -110,6 +111,7 @@ body {
     height: 100vh;
     background-size: cover;
     position: relative;
+    z-index: 2;
 }
 .landing h1,
 h3 {
@@ -154,13 +156,13 @@ hr {
 }
 .text-box {
 
-	height: 100%;
+  height: 100%;
 /*    background-color: rgba(229, 8, 8, 0.94);*/
 
 }
 .textt{
-	    padding: 10%;
-	    background-color: rgba(84, 67, 59, 0.56);
+      padding: 10%;
+      background-color: rgba(84, 67, 59, 0.56);
 }
 
 /*   ====================================
@@ -169,7 +171,7 @@ hr {
 .members h2 {
     margin-top: 2%;
     margin-bottom: 1%;
-    color: #010e1d;
+    
 }
 .members {
     height:auto;
@@ -185,7 +187,8 @@ figure.snip0045 {
   float: left;
   overflow: hidden;
   margin: 10px 1%;
-  min-width: 380px;
+  
+ /* min-width: 380px;*/
   max-width: 400px;
   width: 100%;
   background: #ffffff;
@@ -201,8 +204,8 @@ figure.snip0045 > img {
   border: 4px solid #ffffff;
   -webkit-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
-  -webkit-transform: scale(1.6);
-  transform: scale(1.6);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
   position: relative;
   left: -35%;
   z-index: 1;
@@ -292,6 +295,7 @@ figure.snip0045.hover > img {
 .portfolio {
     background-color: black;
     height: auto;
+    width: 97vw;
 }
 .content h2 {
     margin-top: 2%;
@@ -303,12 +307,12 @@ figure.snip0045.hover > img {
 .portfolio li{
     padding: 2px;
     margin: 0 auto;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .portfolio li {
     display: inline-block;
-    width: 440px;
+    /*width: 440px;*/
     margin: 0;
     padding: 2px;
     text-align: left;
@@ -413,6 +417,10 @@ figure.snip0045.hover > img {
     background-color: #000000;
 }
   /*==========footer section=============*/
+
+.social{
+   background-color: black;
+}
 
 .footer{
 
