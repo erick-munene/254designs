@@ -11,6 +11,16 @@ body {
 }
 
 /*nav bar*/
+@media and screen (max-width: 320px){
+.menu{
+  font-size: 10px;
+}
+
+.menu__link {
+    font-size: 0.75em;
+
+}
+}
 
 .section--menu {
     position: relative;
@@ -37,7 +47,7 @@ body {
     margin: 0em 0;
 }
 .menu__link {
-    font-size: 1.05em;
+    font-size: 0.75em;
     font-weight: bold;
     display: block;
     padding: 1em;
